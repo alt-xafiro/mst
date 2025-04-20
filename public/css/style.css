@@ -1,0 +1,15 @@
+/* FONTS */
+
+@font-face {
+  font-family: "Prata";
+  src: local("Prata"), local("Prata Regular"), local("Prata-Regular"),
+    url("../fonts/Prata-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-arial: "Arial", "Tahoma", "Geneva", "Verdana", sans-serif;
+  --font-prata: "Prata", "Times New Roman", "Times", serif;
+}
