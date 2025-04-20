@@ -3,15 +3,195 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MST</title>
-    <meta name="description" content="Test assignment." />
+
+    <title>Meteor Space Technologies</title>
+    <meta name="description" content="Test assignment for MST." />
+
     <link rel="stylesheet" href="css/style.css" />
+
     <link rel="icon" href="favicon.ico" />
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any"/>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any" />
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   </head>
   <body class="page__body">
+    <header class="page__header header">
+      <p class="header__logo logo">MST</p>
+
+      <nav class="header__navigation navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#why-choose-us">Why choose us</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#space-profits">Space profits</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#join-us">Join us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page__main">
+      <section class="page__hero hero" id="why-choose-us">
+        <h1 class="hero__title">Meteor Space Technologies</h1>
+
+        <p class="hero__motto">Make easy money flying into space!</p>
+
+        <ul class="hero__list">
+          <li class="hero__item">
+            More than <span class="hero__hightlight">$10000</span> for a single
+            trip
+          </li>
+          <li class="hero__item">
+            <span class="hero__hightlight">30%</span> chance of survival
+          </li>
+          <li class="hero__item">
+            <span class="hero__hightlight">17%</span> chance of returning home
+          </li>
+        </ul>
+
+        <a class="hero__join-us button" href="#join-us">Join us</a>
+      </section>
+
+      <section class="page__features features" id="space-profits">
+        <h2 class="visually-hidden">Space profits</h2>
+
+        <ul class="features__list">
+          <li class="features__item">
+            Trade monster parts for additional income — some alien organs are
+            worth millions!
+          </li>
+          <li class="features__item">
+            Grow and harvest rare, high-value alien plants in zero-gravity
+            environments.
+          </li>
+          <li class="features__item">
+            Sell raw materials to Earth-based industries or orbital refineries.
+          </li>
+          <li class="features__item">
+            Become a tour guide for wealthy clients exploring Mars, Europa, or
+            deep-space resorts.
+          </li>
+        </ul>
+
+        <a class="features__join-us button" href="#join-us">Join us</a>
+      </section>
+
+      <section class="page__join join" id="join-us">
+        <h2 class="visually-hidden">Join us</h2>
+
+        <p class="join__luring">Sign up for space money!</p>
+
+        <form
+          class="join__form"
+          action="https://echo.htmlacademy.ru"
+          method="POST"
+        >
+          <p class="join__item">
+            <input
+              class="join__field"
+              id="join-name"
+              type="text"
+              name="name"
+              placeholder="Name"
+            />
+          </p>
+          <p class="join__item">
+            <input
+              class="join__field"
+              id="join-email"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+          </p>
+          <p class="join__item">
+            <input
+              class="join__checkbox"
+              id="privacy-policy"
+              type="checkbox"
+              name="privacy-policy"
+              required
+            />
+            <label class="join__checkbox-label" for="privacy-policy">
+              I accept <a class="join__link" href="#">Privacy policy</a>
+            </label>
+          </p>
+
+          <button class="join__submit button button--submit" type="submit">
+            Submit your application
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="page__footer footer">
+      <nav class="footer__navigation navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#why-choose-us">Why choose us</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#space-profits">Space profits</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#join-us">Join us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="footer__inner">
+        <p class="footer__logo logo">MST</p>
+
+        <ul class="footer__socials socials">
+          <li class="socials__item">
+            <a class="socials__link" href="https://www.instagram.com/">
+              <span class="visually-hidden">Instagram</span>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="https://www.tiktok.com/">
+              <span class="visually-hidden">TikTok</span>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="https://www.linkedin.com/">
+              <span class="visually-hidden">LinkedIn</span>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="https://www.facebook.com/">
+              <span class="visually-hidden">Facebook</span>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="https://telegram.org/">
+              <span class="visually-hidden">Telegram</span>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="https://www.youtube.com/">
+              <span class="visually-hidden">YouTube</span>
+            </a>
+          </li>
+        </ul>
+
+        <a class="footer__join-us button" href="#join-us">Join us</a>
+
+        <p class="footer__item">© 2025, MST</p>
+
+        <p class="footer__item">
+          <a class="footer__link" href="#">Privacy policy</a>
+        </p>
+
+        <p class="footer__item">
+          <a class="footer__link" href="#">Terms of use</a>
+        </p>
+      </div>
+    </footer>
+
     <script src="js/script.js"></script>
   </body>
 </html>
