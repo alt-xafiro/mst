@@ -1,3 +1,12 @@
+/* COLORS */
+
+:root {
+  --color-background-500: #282829;
+  --color-background-600: #222222;
+
+  --color-foreground-500: #ffffff;
+}
+
 /* FONTS */
 
 @font-face {
@@ -12,4 +21,67 @@
 :root {
   --font-arial: "Arial", "Tahoma", "Geneva", "Verdana", sans-serif;
   --font-prata: "Prata", "Times New Roman", "Times", serif;
+}
+
+/* BASIC */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* PAGE */
+
+.page,
+.page__body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--color-background-500);
+
+  font-family: var(--font-arial);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-foreground-500);
+  overflow-wrap: break-word;
+}
+
+.page__header {
+  flex-shrink: 0;
+}
+
+.page__main {
+  flex-grow: 1;
+}
+
+.page__footer {
+  flex-shrink: 0;
+  margin-top: auto;
+}
+
+/* UTILS */
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(100%);
 }
