@@ -8,7 +8,7 @@ const heroInnerNode = document.querySelector(".hero__inner");
 
 const HeaderStyles = {
   BACKGROUND_COLOR: "transparent",
-  BACKGROUND_COLOR_SCROLLED: "var(--color-grey-700)",
+  BACKGROUND_COLOR_SCROLLED: "var(--color-grey-900)",
   PADDING_RIGHT: "var(--header-padding-right)",
   PADDING_RIGHT_SCROLLED: "0",
 };

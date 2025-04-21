@@ -87,50 +87,55 @@
       </section>
 
       <section class="page__join join" id="join-us">
-        <div class="join__inner">
-          <h2 class="visually-hidden">Join us</h2>
-          <p class="join__luring">Sign up for space money!</p>
-          <form
-            class="join__form"
-            action="https://echo.htmlacademy.ru"
-            method="POST"
-          >
-            <p class="join__item">
-              <input
-                class="join__field"
-                id="join-name"
-                type="text"
-                name="name"
-                placeholder="Name"
-                required
-              />
-            </p>
-            <p class="join__item">
-              <input
-                class="join__field"
-                id="join-email"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-                required
-              />
-            </p>
-            <p class="join__item">
-              <input
-                class="join__checkbox"
-                id="privacy-policy"
-                type="checkbox"
-                name="privacy-policy"
-                required
-              />
-              <label class="join__checkbox-label" for="privacy-policy">
-                I accept <a class="join__link" href="#">Privacy policy</a>
-              </label>
-            </p>
-            <button class="join__submit button button--submit" type="submit">
-              Submit your application
-            </button>
-          </form>
+        <div class="join__wrapper">
+          <div class="join__inner">
+            <h2 class="visually-hidden">Join us</h2>
+            <p class="join__luring">Sign up for space money!</p>
+            <form
+              class="join__form"
+              action="https://echo.htmlacademy.ru"
+              method="POST"
+            >
+              <p class="join__item">
+                <input
+                  class="join__field"
+                  id="join-name"
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  required
+                />
+              </p>
+              <p class="join__item">
+                <input
+                  class="join__field"
+                  id="join-email"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  required
+                />
+              </p>
+              <p class="join__item">
+                <input
+                  class="join__checkbox visually-hidden"
+                  id="privacy-policy"
+                  type="checkbox"
+                  name="privacy-policy"
+                  required
+                />
+                <label class="join__checkbox-label" for="privacy-policy">
+                  <span class="join__checkbox-label-inner">
+                    I accept
+                    <a class="join__link" href="#">Privacy policy</a>
+                  </span>
+                </label>
+              </p>
+              <button class="join__submit button button--submit" type="submit">
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
@@ -154,7 +159,7 @@
             </li>
           </ul>
         </nav>
-        <div class="footer__inner">
+        <div class="footer__wrapper">
           <p class="footer__logo logo">MST</p>
           <ul class="footer__socials socials">
             <li class="socials__item">
