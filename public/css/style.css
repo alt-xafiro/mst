@@ -107,7 +107,7 @@ ul {
 
   --join-border-radius: 30px;
   --join-image-background-width: 677px;
-  --join-image-background-height: 632px;
+  --join-image-background-height: 857px;
   --join-image-foreground-width: 496px;
   --join-image-foreground-height: 682px;
 
@@ -576,7 +576,7 @@ ul {
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  min-height: var(--join-image-background-height);
+  min-height: 628px;
   padding-left: var(--page-padding);
   padding-right: var(--page-padding);
 }
@@ -613,7 +613,7 @@ ul {
   border-bottom-right-radius: var(--join-border-radius);
 
   background-image: url("../img/join/background.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
 }
