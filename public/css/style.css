@@ -757,16 +757,18 @@ ul {
 }
 
 .footer__navigation {
-  max-width: calc(var(--page-max-width) + var(--page-padding));
+  max-width: calc(var(--page-max-width) + var(--page-padding) * 2);
 }
 
 .footer__wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
-  max-width: calc(var(--page-max-width) + var(--page-padding));
+  max-width: calc(var(--page-max-width) + var(--page-padding) * 2);
   row-gap: 36px;
   column-gap: 36px;
+  padding-left: var(--page-padding);
+  padding-right: var(--page-padding);
   padding-top: 40px;
   padding-bottom: 60px;
 }
