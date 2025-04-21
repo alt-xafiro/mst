@@ -400,7 +400,7 @@ ul {
   align-items: center;
   column-gap: 200px;
   width: 100%;
-  max-width: var(--page-max-width);
+  max-width: calc(var(--page-max-width) + var(--page-padding));
   padding-right: var(--header-padding-right);
 }
 
